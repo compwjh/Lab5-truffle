@@ -1,0 +1,26 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "A sample project for DApp development using truffle.",
+  "main": "index.js",
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test ./test/compcoin.test.js",
+    "deploy": "truffle migrate --network rinkeby",
+    "deploy:clear": "truffle migrate --network rinkeby --reset"
+  },
+  "keywords": [
+    "truffle",
+    "smart contract"
+  ],
+  "author": "Jon",
+  "license": "MIT",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "truffle": "^5.5.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0"
+  }
+}
