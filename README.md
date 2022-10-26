@@ -55,10 +55,10 @@ dotenv:                       ^16.0.0
   $ npx truffle compile
   ```
 
-- Migerate (deploy) contracts to Rinkeby network:
+- Migerate (deploy) contracts to Goerli network:
 
   ```shell
-  $ npx truffle migrate --network rinkeby
+  $ npx truffle migrate --network goerli
   ```
 
 ## License
