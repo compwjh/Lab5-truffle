@@ -63,7 +63,7 @@ module.exports = {
     // NB: It's important to wrap the provider as a function.
     goerli: {
       provider: () => new HDWalletProvider(secret.key, `https://goerli.infura.io/v3/${secret.node}`),
-      network_id: 4,       // Goerli's id
+      network_id: 5,       // Goerli's id
       gas: 6000000,        // Goerli has a lower block limit than mainnet
       // confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
